@@ -1,7 +1,5 @@
 # Selection Sort Method and Compute Its Time Complexity
 
-This repository contains a C program that implements the selection sort algorithm and measures its performance for arrays of various sizes. The program generates arrays of random integers, sorts them using selection sort, and prints the average time taken to sort the arrays.
-
 ## Detailed Explanation of the C Code
 
 ### Header Inclusions
