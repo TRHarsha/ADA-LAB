@@ -1,6 +1,3 @@
-Here is the `README.md` file for your C program:
-
-```markdown
 # Selection Sort Method and Compute Its Time Complexity
 
 This repository contains a C program that implements the selection sort algorithm and measures its performance for arrays of various sizes. The program generates arrays of random integers, sorts them using selection sort, and prints the average time taken to sort the arrays.
@@ -107,27 +104,3 @@ void printArray(int A[], int n) {
 }
 ```
 This function prints the elements of an array. It is included here for completeness but is not used in the main logic of timing the sort.
-
-## How to Compile and Run
-
-1. **Write the C code to a file**: Save the C code provided above to a file named `selection_sort.c`.
-
-2. **Compile the C code**: Use GCC to compile the code.
-    ```sh
-    gcc selection_sort.c -o selection_sort
-    ```
-
-3. **Run the compiled program**:
-    ```sh
-    ./selection_sort
-    ```
-
-This will print a table with the array sizes and the average time taken to sort arrays of those sizes using the selection sort algorithm.
-
-## Notes
-- The program measures the time taken to sort arrays of sizes from 500 to 10000 in steps of 500.
-- For each array size, the sorting is repeated 5 times to get an average time, making the results more reliable.
-- The output is printed in a tabular format with two columns: array size and average time in milliseconds.
-
-Feel free to modify the step size, number of repetitions, or array size range as needed for your experiments.
-```
